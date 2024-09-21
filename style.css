@@ -1,0 +1,1126 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    
+    
+   
+}
+
+
+
+/* #f6f7fd */
+
+/* #f3f4fb */
+
+:root{
+    --speaker-bg-color: #062456;
+    --eventday-bg-color:#062456;
+    --hotel-bg-color:#062456;
+    --hotel-card-color:#3d63a0;
+    --pricing-bg-color:#f3f4fb ;
+    --sponsor-bg-color:#f1f1f1;
+}
+
+
+
+/* ==========================navbar-starts======================= */
+
+.navbar a , .nav-item{
+
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    display: inline;
+    /* position: sticky ; */
+    top: 0;
+    
+}
+
+.navbar{
+position: sticky;
+    backdrop-filter: blur(45px);
+
+}
+
+
+
+.navbar-brand{
+
+    letter-spacing: 5px;
+}
+
+
+.navbar ul li {
+    
+    display: inline-block;
+    margin: 19px 16px;
+    line-height: 0%;
+
+    
+}
+ 
+.navbar a:hover{
+    color: rgb(204, 16, 16);
+    background: rgb(0, 87, 146);
+    border-radius: 20px;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+
+/*=========== javascript====== */
+
+
+.navbar-brand,.navbar.active{
+    border-radius: 25px;
+    background-color: #00a2ff;
+    color: #00a2ff;
+}
+
+ 
+/* ==========================navbar-ends======================= */
+
+
+/* ==============================Home-content-Starts======================== */
+
+
+.home{
+    width: 100%;
+    height: auto;
+    min-height: 89vh;
+    position: relative;
+
+   
+    /* background: url(images/corporate-businessman-giving-presentation-large-audience.jpg) no-repeat center center / cover ; */
+    /* background: url(images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg) no-repeat center center / cover ; */
+    background: url(images/0a7b35_3d82ac79ee6348aeba35350d0b08820c~mv2_d_6720_4480_s_4_2.jpg) no-repeat center center / cover ;
+   
+
+}
+
+
+.position-relative h2{
+    color: rgb(1, 27, 91);
+    
+    font-family: "Poppins", sans-serif;
+   
+    
+    
+}
+
+.position-relative p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+
+.position-relative p span{
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+
+.position-relative .btn  {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 150px;
+
+}
+
+/* ==============================Home-content-ends======================== */
+
+
+/* ==============================timer-Starts=============================== */
+
+
+.card-full{
+    position: relative;
+    max-width: 700px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+ 
+.card-body h2{
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+    
+.btn-77, .btn-77:before {
+    font-family: "Poppins", sans-serif;
+    border: 0 solid;
+    box-sizing: border-box;
+    cursor: none;
+} 
+
+
+.btn-77 {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 155vh;
+    top: -80px;
+    background-color: #234d95;
+    color: #fff;
+    cursor: none;
+    animation: pulse 2s infinite;
+    border-radius: 9px;
+    box-shadow: 0 0 1em 1.5em rgb(44, 173, 216);
+    font-weight: 900;
+    padding: 1vh;
+    margin: 4vh;
+    text-transform: uppercase;
+    cursor: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ffffff;
+  }
+}
+
+/* ============================timer-ends================================== */
+
+
+/* ==============================intro -content======================== */
+
+/* ------------------------------YET TO CODE -------------------------------------- */
+
+
+/* .content1{
+    position: relative;
+    top: 50px;
+} */
+
+
+.content1 {
+    background-color: #f3f4fb ;
+}
+
+.col-lg-6 img{
+    width: 80%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ===========================intro -content-end============================= */
+
+
+/* ==============================speakers-Start======================== */
+
+.wrapper{
+     
+    background-color:var(--speaker-bg-color);
+}
+
+
+
+.wrapper .title{
+    color: #f6f7fd;
+   text-align: center;
+}
+
+.wrapper .card_Container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.card_Container .card{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 30px -20px rgba(0, 0, 0, 1),
+                inset 0 0 0 1000px rgba(67, 52, 109, .6);
+    border-radius: 100px;
+    
+}
+
+.card .imbBx, .imbBx img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .content{
+    width: 100%;
+ 
+  
+}
+
+ 
+.content .contentBx h3{
+    transform: translate(-0px,-63px);
+    color: #ffffff;
+    height: 15vh;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.1em;
+    transition: all ease-in-out 0.5s;
+   
+    backdrop-filter: blur(45px);
+     
+
+}
+
+ 
+.card:hover .content .contentBx h3{
+    transform: translateY(-90px);
+    backdrop-filter: blur(45px);
+    transition: 0.4s;
+    overflow-y: hidden;
+}
+
+
+
+.content .contentBx h3 span{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+
+.contentBx .sci{
+    transform: translate(45px, -100px);
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.contentBx .sci li{
+    
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    background-color: #000000;
+    
+}
+
+.contentBx .sci li a{
+    color: #fff;
+    background-color: #000000;
+}
+
+.card:hover .contentBx .sci li{
+    font-size: 24px;
+}
+
+/* ==============================speakers-ends======================== */
+
+
+
+/* ==============================Schelude -Starts======================== */
+
+
+.schedule{
+    background-color: #f3f4fb;
+}
+
+ 
+
+tr img{
+    width: 50px;
+    height: 50px;
+} 
+        @media only screen and (max-width:800px) {
+            #no-more-tables tbody,
+            #no-more-tables tr,
+            #no-more-tables td {
+                display: block;
+            }
+            #no-more-tables thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            #no-more-tables td {
+                position: relative;
+                padding-left: 50%;
+                border: none;
+                border-bottom: 1px solid #eee;
+            }
+            #no-more-tables td:before {
+                content: attr(data-title);
+                position: absolute;
+                left: 6px;
+                font-weight: bold;
+            }
+            #no-more-tables tr {
+                border-bottom: 1px solid #ccc;
+            }
+        }
+
+
+ 
+
+.nav-tabs {
+border-bottom: transparent;
+}
+
+
+.nav-tabs .nav-item .nav-link {
+    background-color: var( --eventday-bg-color);
+  
+    border-radius: 25px;
+    color: #e5e5e5;
+    
+}
+
+
+
+/* -----------------------Schelude -ends----------------------------------- */
+
+
+
+
+/* -----------------------hotels -starts----------------------------------- */
+
+
+
+
+.wrapper-2{
+    padding-bottom: 10px;
+    background: var(--hotel-bg-color);  
+}
+
+.wrapper-2 .title-2{
+   text-align: center;
+   color: #f6f7fd;
+}
+
+.wrapper-2 .card_Container-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;    
+}
+
+.card_Container-2 .card-2{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 30px -20px rgba(0, 0, 0, 1),
+                inset 0 0 0 1000px var(--hotel-card-color);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-2:hover{
+    transition: all ease-in-out 0.40s;
+    transform: scale3d(1.1, 1.2, 1.9);
+}
+
+.content-2 img{
+    width: 90%;
+    height: -55%;
+    transform: translate(12px,10px);
+    border-radius: 10px;
+}
+
+
+.rating{
+    background-color: aliceblue;
+    width: 60px;
+    transform: translate(12px , -23px);
+    border-radius: 15px;
+    text-align: center;    
+}
+
+.rating img{
+    width: 20px;
+    height: 20px;
+    transform: translate(-4px,-2px);
+}
+
+
+
+.card-2 .col{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transform: translate(0px ,-9px);
+}
+
+
+.one{
+    transform: translate(10px ,10px);
+}
+.one h3{
+    color: #eee;
+    font-size: 14px;
+    width: 150px;
+}
+
+.h-name img{
+    width: 10px;  
+}
+
+
+.h-name .img::after{
+   content: "54";
+   display: flex;
+
+}
+
+
+.two .money{
+    width: 35px;
+    transform: translate(31px, -10px);
+}
+
+.two  h5{
+    color: #eee;
+   transform: translate(31px ,-10px);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+.two  h5::before{
+    content: "$";
+    color: greenyellow;
+
+}
+
+.line{
+    height: 1px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 0px 1px rgba(63, 62, 62, 0.43),
+                inset 0 0 0 1000px hwb(0 99% 1% / 0.973);
+    width: 250px;
+    position: relative;
+    top: 55px;
+    left: -245px;
+}
+
+
+
+ 
+.three , .four{
+    transform: translateY(12px);
+}
+
+
+.three{
+    display: flex;
+    column-gap: 29px;
+}
+
+.three img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    transform: translate(15px,15px);
+}
+
+
+.three h5{
+    color: #eee;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+.four .btn{
+    width: 90px;
+    display: flex;
+  
+    padding: 5px;
+    margin: 2px;
+}
+
+
+
+/* -----------------------hotels -ends----------------------------------- */
+
+
+
+
+
+/*-=================================== pricing-starts================================ */
+
+
+.mu-pricing {
+    background-color: var(--pricing-bg-color);
+}
+
+.mu-pricing-area {
+	display: inline;
+	float: left;
+	
+	width: 100%;
+}
+
+.mu-pricing-content{
+	display: inline;
+	float: left;
+
+	width: 100%;
+}
+
+.mu-pricing-single {
+	background-color: var(--hotel-card-color);
+	color: #141414;
+	display: inline;
+	float: left;
+	text-align: center;
+	 
+	width: 100%;
+}
+
+.mu-pricing-single-head {
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+
+	width: 100%;
+}
+
+.mu-pricing-single-head h4 {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.mu-pricing-single-head .mu-price-tag {
+	font-size: 55px;
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: 15px 0 20px;
+}
+
+.mu-pricing-single-head .mu-price-tag span {
+	font-size: 22px;
+	margin-right: -10px;
+}
+
+
+/* STANDARD ACCESS - mu-price-feature */
+
+
+.mu-price-feature-1 {
+	padding: 20px 0;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-price-feature-1 li {
+	list-style: none;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+
+ 
+
+/* PROFESSIONAL ACCESS - mu-price-feature */
+
+
+.mu-price-feature-2 {
+	padding: 20px 0;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-price-feature-2 li {
+	list-style: none;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+
+ 
+
+
+.mu-price-feature-2 li:nth-child(5):before,
+.mu-price-feature-2 li:nth-child(6):before{
+    content:"";
+    width: 100px;
+    height: 100px;
+    background-image: url(images/icons8_star_half_empty_96px.png);
+}
+
+
+/* PREMIUM ACCESS - mu-price-feature */
+
+
+.mu-price-feature-3 {
+	padding: 20px 0;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-price-feature-3 li {
+	list-style: none;
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+ 
+
+
+.mu-pricing-single-footer {
+	display: inline-block;
+	width: 100%;
+}
+
+.mu-order-btn {
+	background-color: transparent;
+	border-radius: 100px;
+	border: 1px solid #fafafa;
+	color: #000000;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	padding: 12px 25px;
+	font-weight: 500;
+	
+	transition: all 0.5s;
+	text-transform: uppercase;
+}
+
+.mu-popular-price-tag {
+	color: #fff;
+}
+
+.mu-popular-price-tag .mu-order-btn {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+
+
+/*-=================================== pricing-ends================================ */
+
+
+/*=================================== sponsours-starts ========================== */
+
+.sponsors{
+
+    background-color: var(--sponsor-bg-color);
+    padding: 2em ;
+}
+
+
+
+
+
+
+
+.brand-area {
+    display: flex;
+    position:relative;
+    border: 1px solid #f3f3f3;
+   
+}
+.brand-area .item {
+    padding: 0 40px 0;
+}
+
+
+@media screen and (min-width:480px) {
+
+    .brand-area  {
+        display: none;
+    }
+    
+}
+
+
+
+
+.brand-area img {
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgba(63, 62, 62, 0.43);
+    padding:5px 20px 5px 20px;
+    box-shadow: 0 1px 0px 1px rgba(63, 62, 62, 0.43),
+                inset 0 0 0 1000px hwb(0 99% 1% / 0.973);
+     
+}
+
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+
+
+
+
+/*=============== slider img -starts========== */
+
+.slide img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 40s linear infinite;
+  }
+  
+  .slide-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    overflow: hidden;
+    
+}
+ 
+ 
+
+.slide::before{
+    left: 0;
+    background: linear-gradient(to right , red 0% blue 100%);
+}
+.slide::after{
+    right: 0;
+    background: linear-gradient(to left , red 0% green 100%);
+}
+
+
+
+/*=============== slider img-ends ========== */
+
+
+/*============================ sponsours-ends ======================= */
+
+
+/* ================================- fotter starts======================================  */
+
+
+
+  
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+
+.nav-ul{
+    column-gap: 25px;
+}
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer-nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer-nav {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav-ul a {
+    color: #999;
+  }
+  
+  .nav-ul-extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+
+    
+
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal-links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer-nav > * {
+      flex: 1;
+    }
+    
+    .nav-item-extra {
+      flex-grow: 2;
+    }
+    
+    .footer-addr {
+      flex: 1 0px;
+    }
+    
+    .footer-nav {
+      flex: 2 0px;
+    }
+  }
+
+/* ================================- fotter ends======================================  */
+
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+/* 
+// Small devices (landscape phones, 576px and up) */
+
+@media screen  and(min-width:320px) {
+    
+}
+
+@media screen and (min-width:480px) {
+
+    
+    
+}
+
+@media only screen and (max-width: 575.98px) { 
+    .position-relative h2 {
+        font-size:55px ;
+
+    }
+    .position-relative p {
+        font-size:25px ;
+        /* color: #fff; */
+    }
+    .position-relative p span {
+        /* font-size:25px ; */
+        color: #fff;
+    }
+
+
+
+    .position-relative .btn{
+        position: relative;
+        /* top: 210px; */
+    }
+        
+    
+
+    .card-full{
+        transform: translateY(18%);
+    }
+
+    .card-body h2{
+        font-size: 1.4em;
+    }
+
+    .card-title{
+        font-size: 1em;
+    }
+
+    .btn-77 {
+        position: relative;
+        left: 5vh;
+        transform: translateY(-10%);
+    }
+
+    .btn-77{
+        display: none;
+    }
+
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+@media only screen and (min-width: 576px) {
+
+    .position-relative h2 {
+        font-size:50px ;
+    }
+    .position-relative p {
+        font-size:20px ;
+    }
+
+    .position-relative .btn  {
+        display: none;
+    }
+
+    .btn-77 {
+        display: none;
+    }
+
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+
+    .position-relative h2{
+        font-size:65px ;
+    }
+
+    .position-relative p{
+        
+        font-size:30px ;
+    }   
+    .position-relative p span{
+        color: #eee;
+    }   
+    
+    .position-relative .btn  {
+        display: none;
+
+    }
+
+    .card-full{
+        transform:  translateY(18%);
+       
+    }
+
+    .btn-77{
+        display: none;
+    }
+
+    
+
+
+  
+        
+}
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+
+    .position-relative h2{
+        font-size:58px ;
+    }
+
+    .position-relative p{
+        font-size:30px ;
+    }
+
+    
+    .position-relative .btn  {
+        display: none;
+
+    }
+
+    /* .btn-77 {
+        position: relative;
+        display: grid;
+        transform: translateX(-100vh)  translateY(25%);
+    } */
+
+    
+       
+
+        
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media  only screen and (min-width: 1200px) { 
+    .position-relative h2{
+        font-size:61px ;
+    }
+
+    .position-relative p{
+        font-size:30px ;
+    }
+
+    
+    .position-relative .btn  {
+        display: none;
+
+    }
+
+    .btn-77 {
+        position: relative;
+        display: grid;
+        transform: translateX(-90vh)  translateY(25%);
+    }
+
+
+   
+       
+        
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media  only screen and (min-width: 1400px) { 
+    .position-relative h2{
+        font-size:61px ;
+    }
+
+    .position-relative p{
+        font-size:30px ;
+    }
+
+    .position-relative .btn  {
+        display: none;
+
+    }
+
+    .btn-77 {
+        display: none;
+    }
+
+    
+
+    
+
+
+
+        
+}
